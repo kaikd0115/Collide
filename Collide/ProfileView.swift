@@ -13,7 +13,7 @@ struct ProfileView: View {
             
             Image(systemName: "person.circle.fill")
                 .resizable()
-            frame(width: 120, height: 120)
+                .frame(width: 120, height: 120)
             Text("Username")
                 .font(.largeTitle)
             
